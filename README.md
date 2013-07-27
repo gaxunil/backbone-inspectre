@@ -10,3 +10,5 @@ as well as some application level functions.
 You can also setup log point callbacks, which get checked with each monitored event.
 Supply a function that returns boolean and when true, the log point will log in the
 time stream.
+
+NOT YET READY FOR USE, STILL UNDER DEV
