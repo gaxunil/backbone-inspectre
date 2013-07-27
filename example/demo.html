@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Backbone Inspectre Demo</title>
+  <link rel="stylesheet" href="styles/demo.css"/>
+</head>
+
+<body style="margin: 10px;">
+
+  <div class="container" id="results">
+    <h1>Hello</h1>
+
+    <div class="row">
+      <div class="span8">
+        <p>lksjlfjads;lfjkasd fl;aksdjf; lkadjsf;lk ajsdf;lkajsd;lfja</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span8">
+        <p>ABC lksjlfjads;lfjkasd fl;aksdjf; lkadjsf;lk ajsdf;lkajsd;lfja</p>
+      </div>
+    </div>
+
+  </div>
+<!-- Templates -->
+
+  <script type="text/template" id="result-template">
+    <div class="row">
+      <div class="span8">
+        <p>gist id <%=id%> by <strong><%=user.login%></strong><br/>
+          Description: <%=description%>
+        </p>
+      </div>
+    </div>
+  </script>
+
+  <script src="vendor/json2.js"></script>
+  <script src="vendor/jquery.js"></script>
+  <script src="vendor/underscore.js"></script>
+  <script src="vendor/backbone.js"></script>
+  <script src="demo.js"></script>
+
+
+
+
+</body>
+</html>

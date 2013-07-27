@@ -1,0 +1,12 @@
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+
+.container {
+    margin-top: 10px;
+}
+
+.row {
+
+  background-color: #dceaf4;
+  padding-top: 10px;
+  margin-top: 10px;
+}
